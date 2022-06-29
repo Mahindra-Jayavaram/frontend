@@ -1,0 +1,78 @@
+body {
+  background: rgb(2, 0, 36);
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(30, 54, 59, 1) 0%,
+    rgba(93, 93, 116, 1) 100%
+  );
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+}
+.container > form {
+  width: 70%;
+  border: 1px solid #dfdfdf;
+  padding: 20px;
+  border-radius: 5px;
+  background: #fff;
+}
+pre {
+  width: 70%;
+  color: #fff;
+  font-size: larger;
+}
+
+button {
+  background: #0563b4 !important;
+}
+p {
+  color: red;
+}
+
+.black{
+  color: black;
+  display: none;
+}
+.red{
+  color: red
+}
+.form{
+  width : 100%
+}
+.form>input{
+  width : 90%;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.submitButton{
+  width : 93%;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #0563b4;
+  background: #0563b4;
+  color: white;
+  font-size: bold;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.message{
+  background-color: #0563b4;
+  width: 50%;
+  height: 30px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
+  color: white;
+  font-size: bold;
+  box-shadow: rgba(227, 221, 221, 0.24) 0px 3px 8px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
